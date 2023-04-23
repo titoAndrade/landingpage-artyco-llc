@@ -1,9 +1,6 @@
 import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
-// import ReactPlayer from 'react-player';
-// import YouTube from 'react-youtube';
-import VideoBackground from '../components/Background/VideoBackground'
-
+import video from './media/artyco-background-video.mp4'
 
 // import video from './media/video.mp4'
 
@@ -18,7 +15,9 @@ export default function Home() {
         <div className='' id='homeContainer'>
             {/* BACKGROUND VIDEO */}
             <div className="video-background">
-                <VideoBackground />
+                <video autoPlay loop muted >
+                    <source src={video} type='video/mp4'/>
+                </video>
             </div>
 
 
