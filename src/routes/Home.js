@@ -22,7 +22,9 @@ export default function Home() {
             <div className="color-overlay"></div>
 
             <div className='Home'>
-                <h1>{t("hi")}</h1>
+                <h1>ARTYCO LLC</h1>
+                <h4>WORK IN PROGRESS</h4>
+                <h5>10%</h5>
             </div>
         </div>
     )
