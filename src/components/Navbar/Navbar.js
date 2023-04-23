@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import './Navbar.css'
+import logo from "./logo.svg"
 
 export default function Navbar() {
    const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,9 @@ export default function Navbar() {
   return (
     <div className="Navbar fixed-top">
 
-      <a href="#" onClick={() => setIsOpen(isOpen)} className="nav-logo">{t("home")}</a>
+      <a href="#" onClick={() => setIsOpen(isOpen)} className="nav-logo">
+        <img src={logo} alt="logo" />
+      </a>
 
       <div className={`nav-items ${isOpen && "open"}`}>
 
