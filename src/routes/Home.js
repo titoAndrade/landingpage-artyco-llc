@@ -2,8 +2,6 @@ import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import video from './media/artyco-background-video.mp4'
 
-// import video from './media/video.mp4'
-
 import './Home.css'
 
 export default function Home() {
@@ -13,6 +11,7 @@ export default function Home() {
 
     return(
         <div className='' id='homeContainer'>
+
             {/* BACKGROUND VIDEO */}
             <div className="video-background">
                 <video autoPlay loop muted >
@@ -20,8 +19,9 @@ export default function Home() {
                 </video>
             </div>
 
+            <div className="color-overlay"></div>
 
-            <div className="Home">
+            <div className='Home'>
                 <h1>{t("hi")}</h1>
             </div>
         </div>

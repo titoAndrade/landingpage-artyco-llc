@@ -5,11 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: #FFF;
+    background: none;
     font-family: 'syne';
     font-weight: 700;
     padding-bottom: 4px;
-    border-bottom: 2px solid #000;
+    /* border-bottom: 2px solid #000; */
   }
   
   .Navbar p {
@@ -23,7 +23,7 @@
   .nav-logo {
     font-family: 'syne';
     font-weight: 700;
-    color: #000;
+    color: #fff;
     border: none;
     background: none;
     text-decoration: none;
@@ -34,18 +34,18 @@
   }
   
   .nav-logo:hover {
-    color: #DA0037;
+    color: #00293C;
   }
   
   .nav-items a {
-    color: #000;
+    color: #fff;
     font-size: 15px;
     text-decoration: none;
     margin: 18px;
   }
   
   .nav-items  a:hover {
-    color: #DA0037;
+    color: #00293C;
   }
   
   .nav-toggle {
