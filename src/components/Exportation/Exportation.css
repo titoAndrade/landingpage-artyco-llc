@@ -1,0 +1,64 @@
+* {
+    font-family: roboto;
+}
+
+.container-exportation {
+    /* height: 90vh; */
+    width: 100%;
+}
+
+#exportationbox {
+    background: #fff;
+    padding-block: 8em;
+}
+
+#exportTitle {
+    font-size: 50px;
+    font-weight: 900;
+    width: 600px;
+    margin-bottom: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+#copybox {
+    /* border: solid #d4d4d4 2px; */
+    padding-inline: 40px;
+    padding-block: 40px;
+}
+
+#copy3 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#copybox button {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#list {
+    font-size: 18px;
+    text-align: left;
+}
+
+#list .row {
+    padding-block: 8px;
+}
+
+#list img {
+    height: 35px;
+}
+
+#list .col-9 {
+    margin-left: 1em;
+}
+
+

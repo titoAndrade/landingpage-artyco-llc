@@ -12,7 +12,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="Navbar fixed-top">
+    <div className="Navbar">
 
       <a href="#" onClick={() => setIsOpen(isOpen)} className="nav-logo">
         <img src={logo} alt="logo" />

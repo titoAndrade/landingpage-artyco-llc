@@ -5,6 +5,7 @@
   height: 60px;
   background-color: none;
   padding: 0 20px;
+  text-transform: uppercase;
 }
 
 .nav-logo {
@@ -21,12 +22,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.nav-items a:hover {
+  color: #d4d4d4;
+  /* font-weight: 900; */
+  /* background-color: #fff; */
 }
 
 .nav-items a {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 15px;
 }
 
 .language-switcher {
@@ -36,7 +45,7 @@
 button {
   border: none;
   background: none;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   color: #fff;
 }
@@ -45,4 +54,8 @@ button:first-child {
   border-right: 1px solid #fff;
   padding-right: 15px;
   margin-right: 10px;
+}
+
+button:hover {
+  color: #d4d4d4;
 }

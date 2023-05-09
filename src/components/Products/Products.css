@@ -1,0 +1,46 @@
+* {
+    font-family: roboto;
+}
+
+.container-products {
+    /* height: 90vh; */
+    width: 100%;
+}
+
+#productsbox {
+    margin-top: 1em;
+    background: #fff;
+    padding-block: 6em;
+}
+
+#backsquare2 h1 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 25px;
+    /* max-width: 340px; */
+}
+
+#backsquare2 {
+    background-color: #c4c4c4;
+    padding-inline: 40px;
+    padding-block: 40px;
+}
+
+#copy2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#backsquare2 button {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}

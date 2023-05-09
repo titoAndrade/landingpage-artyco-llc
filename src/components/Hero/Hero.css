@@ -1,0 +1,45 @@
+* {
+    font-family: roboto;
+}
+
+.container {
+    margin-top: 70px;
+    height: 90vh;
+    border: solid 2px transparent;
+    /* border: solid 2px #fff; */
+}
+
+#herobox {
+    margin-top: 9em;
+}
+
+#title h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 50px;
+    /* max-width: 340px; */
+}
+
+#backsquare {
+    background-color: rgba(0, 18, 31, 0.60);
+    padding-inline: 40px;
+    padding-block: 40px;
+}
+
+#copy1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#backsquare button {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
